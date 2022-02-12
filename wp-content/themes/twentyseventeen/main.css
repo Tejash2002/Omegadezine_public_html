@@ -1,0 +1,590 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Open+Sans:wght@300;400&display=swap');
+
+
+/*-----------General Styling--------------*/
+body {
+	background-color: rgb(25, 25, 25);
+	color:  white;
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+#submit-form {
+	width: 95%;
+	border: 1px solid rgba(210,210,210,0.7);
+	border-radius: 50px;
+	text-align: center;
+	margin: 20px auto;
+	padding: 10px;
+}
+
+#submit-form input
+#submit-form button {
+	display: inline-block;
+	margin: 10px;
+}
+
+#submit-form input {
+	background-color: rgb(25, 25, 25); 
+	color: rgba(210, 210, 210, 0.9); 
+	margin: 5px 0;
+}
+
+#submit-form button {
+	background-color: rgb(25, 25, 25); 
+	color: rgba(210, 210, 210, 0.9); 
+	border: 1px solid rgba(210, 210, 210, 0.9); 
+	border-radius: 20px;
+	width: 100px;
+	padding: 5px;
+}
+#submit-form button:active {
+	outline: none;
+}
+
+/*----------Header-------------*/
+
+header {
+	width: 95%;
+	/*border: 2px solid white;*/
+	margin: 0.5rem auto;
+	background-color: rgb(25, 25, 25);
+}
+
+header nav a #logo-image {
+  animation-name: example;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes example {
+  from {transform: rotateY(0deg);}
+  to {transform: rotateY(360deg);}
+}
+
+header nav div ul li {
+	margin: 0 30px;
+	font-weight: 300;
+}
+
+header nav div ul li:first-child a i {
+	color: rgb(17, 136, 166);
+	margin: 0 20px;
+}
+
+/*----------Slider-------------*/
+
+.carousel-inner img {
+	    width: 100%;
+	    height: 100%;
+}
+
+#demo {
+	width: 95%; 
+	margin: auto; 
+	box-shadow: 0 0px 20px 0 rgba(69, 200, 233, 1), 0 0 20px 0 rgba(69, 200, 233, 0.19);
+}
+
+.carousel-caption {
+	/*height: 70%;*/
+	text-align: left;
+	top:  30%;
+	left: 8%;
+}
+
+.carousel-caption p {
+	font-size: 1.6em;
+	font-weight: bold;
+	letter-spacing: 5px;
+	word-spacing: 1.2em;
+}
+
+.carousel-caption h3 {
+	font-size: 6em;
+	margin-left: 0.6em;
+	letter-spacing: 4px;
+}
+
+
+/*----------Submenu-------------*/
+
+#section2 {
+	/*width: 95%;*/
+	/*border: 2px solid white;*/
+	margin: 30px auto;
+}
+
+#section2 nav {
+	width: 95%;
+	margin: 30px auto;
+}
+
+#section2 nav .submenu ul li {
+	/*display: inline-block;*/
+	/*border: 1px solid white;*/
+	margin: 0.6em 1.3em;
+	padding: 0.3em;
+	border: 1px solid rgba(13,85,100,1.0);
+/* 	box-shadow: 0 0px 20px 0 rgba(69, 200, 233, 1), 0 0 20px 0 rgba(69, 200, 233, 0.19); */
+	transition: all 0.5s ease-in-out;
+}
+
+#section2 nav .submenu ul li:hover{
+	box-shadow: 0 0px 20px 0 rgba(69, 200, 233, 1), 0 0 20px 0 rgba(69, 200, 233, 0.19);
+	transform: scale(1.1);
+	
+}
+
+#section2 nav .submenu ul li a {
+	padding: 0.8em 3em;
+	text-align: center;
+}
+
+
+/*---------- Image and Description Start -------------*/
+#section3 #s3-outer-div {
+	width: 95%;
+	margin: 30px auto;
+	position: relative;
+}
+
+#section3 #s3-outer-div #s3-img {
+	position: absolute; 
+	top: 25px; 
+	left: 30px;
+}
+
+#section3 #s3-outer-div #s3-shape2 {
+	position: absolute; top: 0px; right:0px;
+}
+
+#section3 #s3-outer-div #s3-text {
+	position: absolute; 
+	top: 20px; 
+	right: 30px; 
+	margin: 10px; 
+	padding: auto 20px; 
+	/*border: 1px solid white; */
+	width: 50%; text-align: center;
+}
+
+#section3 #s3-outer-div #s3-text h1 {
+	margin: 15px auto;
+}
+
+#section3 #s3-outer-div #s3-text p {
+	margin: 30px auto;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	width: 80%;
+	letter-spacing: 2px;
+}
+
+#section3 #s3-outer-div #s3-text button {
+	margin: 10px auto;
+	padding: 10px; 
+	border-radius: 15px;
+	border: 1px solid black;
+	box-shadow: 0 0 20px 5px rgba(13, 85, 100, 1), 0 0 20px 5px rgba(13, 85, 100, 0.19);
+	background-image: linear-gradient(to right, rgb(110, 153, 255), rgb(97, 186, 202));
+	font-size: 0.9em;
+	font-weight: 600;
+}
+
+/*---------- Image and Description End -------------*/
+
+
+/*---------- Services Start -------------*/
+#section4 {
+	width: 95%;
+	margin: 0 auto;
+}
+
+#section4 h1 {
+	/*border: 1px solid white;*/
+	text-align: center;
+	color: rgb(7, 143, 185);
+     
+	font-size: 4em;
+	margin-bottom: 20px;
+}
+
+#section4 .display-item img {
+	border: 1px solid rgb(180, 180, 180);
+	padding: 5px;
+	margin: 19px;
+    color:black;
+    
+}
+
+/*---------- Services End -------------*/
+
+/*---------- Testimonial Start -------------*/
+#section5 h1 {
+	/*border: 1px solid white;*/
+	text-align: center;
+	color: rgb(7, 143, 185);
+	font-size: 4em;
+	margin-bottom: 20px;
+}
+
+#section5 .testimonial-content {
+	background-image: linear-gradient(to right,rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('img/slider-04.jpg');
+	background-position: center;
+	background-size: cover;
+	background-blend-mode: overlay;
+	/*border: 1px solid white;*/
+	text-align: center;
+}
+
+#section5 .testimonial-content .testimonial-item {
+	/*border: 1px solid white;*/
+	display: inline-block;
+	width: 95%;
+	background-color: rgba(20, 20, 20, 0.7);
+	/*height: 400px;*/
+	padding: 80px 20px;
+	margin: 10px;
+	box-shadow: 0 0px 20px 0 rgba(69, 200, 233, 1), 0 0 20px 0 rgba(69, 200, 233, 0.19);
+	text-align: left;
+}
+
+#section5 .testimonial-content .testimonial-item:first-child {
+	/*margin-left: 115px;*/
+}
+
+#section5 .testimonial-content .testimonial-item:last-child {
+	/*margin-right: 110px;*/
+}
+
+#section5 .testimonial-content .testimonial-item h4 {
+	color: rgb(0, 143, 181);
+	font-weight: bold;
+	margin-top: 40px;
+}
+
+/*---------------- Footer -----------------*/
+footer {
+	/*border: 1px solid white;*/
+	width: 75%;
+	margin: 30px auto;
+}
+
+footer #subscription-form form {
+	float: left;
+	/*margin-right: 100px;*/
+	/*margin: 10px;*/
+	margin-bottom: 10px;
+}
+
+footer #subscription-form form input {
+	margin: auto 0;
+	padding: 10px;
+	width: 180px;
+	height: 45px;
+	background-color: black;
+	color: white;
+	font-size: 0.9em;
+	font-weight: 600;
+	border: 1px solid rgba(13,85,100,1.0);
+	box-shadow: 0 0px 20px 0 rgba(69, 200, 233, 1), 0 0 20px 0 rgba(69, 200, 233, 0.19);
+}
+
+@media screen and (max-width: 576px) {
+	footer #subscription-form form input {
+		width: 150px;
+	}
+}
+
+footer #subscription-form form button {
+	margin: auto 0 auto -5px;
+	width: 100px;
+	height: 45px;
+	font-size: 0.9em;
+	color: white;
+	background-color: rgba(2,146,181,1.0);
+	border: 1px solid rgba(13,85,100,1.0);
+}
+
+footer #subscription-form p {
+	/*margin: 10px 10px 10px 50px;*/
+	padding-left: 30px;
+	color: rgb(189, 189, 189);
+}
+
+footer #footer-details {
+	border: 1px solid rgba(2,146,181,1.0);
+	padding: 10px;
+	background-color: black;
+	margin: 25px auto;
+}
+
+footer #footer-details #footer-discription {
+	/*border: 1px solid white;*/
+	display: inline-block;
+	/*width: 45%;*/
+	padding: 10px;
+	text-align: center;
+}
+
+footer #footer-details #footer-discription p {
+	margin: 10px;
+	text-align: left;
+	color: rgb(189, 189, 189);
+	font-size: 1.1em;
+	font-weight: 400;
+	/*line-height: 1em;*/
+	text-align: justify;
+}
+
+footer #footer-details #footer-link {
+	/*border: 1px solid white;*/
+	display: inline-block;
+	/*width: 20%;*/
+	padding: 10px;
+	margin-left: 10px;
+}
+
+footer #footer-details #footer-link h6 {
+	color: rgb(0, 143, 181);
+	font-size: 1.5em;
+	/*margin-top: 10px;*/
+}
+
+footer #footer-details #footer-link ul {
+	padding: 0;
+	margin-top: 22px;
+}
+
+footer #footer-details #footer-link ul li {
+	list-style-type: none;
+}
+
+footer #footer-details #footer-link ul li a {
+	color: rgb(189, 189, 189);
+	font-size: 1.1em;
+	font-weight: 300;
+	line-height: 2.1em;
+}
+
+footer #footer-details #get-in-touch {
+	/*border: 1px solid white;*/
+	display: inline-block;
+	/*width: 27%;*/
+	padding: 10px;
+	margin-left: 10px;
+}
+
+footer #footer-details #get-in-touch h6 {
+	color: rgb(0, 143, 181);
+	margin: 10px 0 17px 0;
+	font-size: 1.5em;
+}
+
+footer #footer-details #get-in-touch .text .subtext {
+	display: inline-block;
+	color: rgb(189, 189, 189);
+	font-size: 1.1em;
+	font-weight: 300;
+}
+
+footer #footer-details #get-in-touch .text .subtext p {
+	margin: 2px 0 0 0;
+}
+
+
+#bottom-ribbon {
+	background-image: linear-gradient(to right,rgba(11,71,114,1.0),rgba(34,167,200,1.0),rgba(11,71,114,1.0));
+}
+
+#bottom-ribbon div {
+	display: inline-block;
+}
+
+#bottom-ribbon #text {
+	/*width: 70%;*/
+	padding: 10px 10px 10px 10px;
+	font-weight: 300;
+	text-align: left;
+}
+
+@media screen and (max-width: 576px) {
+	#bottom-ribbon #text {
+	text-align: center;
+	}
+}
+
+#bottom-ribbon #links a i {
+	/*display: inline-block;*/
+	color: white;
+	margin: 0 10px;
+}
+
+#bottom-ribbon #logo img {
+	height: 50px;
+	/*margin-left: 50px;*/
+}
+
+/*--------- About US page-------*/
+
+#about-us {
+	width: 95%;
+	margin: 0 auto;
+	background-color: #c8c8c8;
+	border-radius: 15px;
+	padding: 5px;
+}
+
+#about-us h1 {
+	/*border: 1px solid white;*/
+	text-align: center;
+	color: rgb(7, 143, 185);
+	font-size: 4em;
+	margin-bottom: 20px;
+}
+
+#about-us .display-item {
+	margin: 20px 20px 30px 20px;
+}
+
+#about-us .display-item p {
+	margin: 20px;
+	text-align: justify;
+    color:black;
+}
+
+
+/*----------Contact US-------------*/
+
+
+#contactUs #footer-details {
+	/*border: 1px solid rgba(2,146,181,1.0);*/
+	padding: 10px;
+	/*background-color: black;*/
+	margin: 25px auto;
+}
+
+#contactUs #footer-details #footer-discription {
+	/*border: 1px solid white;*/
+	display: inline-block;
+	/*width: 45%;*/
+	padding: 10px;
+	text-align: center;
+}
+
+#contactUs #footer-details #footer-discription p {
+	margin: 10px 30px;
+	text-align: left;
+	color: rgb(189, 189, 189);
+	font-size: 0.8em;
+	font-weight: 400;
+	line-height: 1.7em;
+}
+
+#contactUs #footer-details #footer-link {
+	/*border: 1px solid white;*/
+	display: inline-block;
+	/*width: 20%;*/
+	padding: 10px;
+	margin-left: 10px;
+}
+
+#contactUs #footer-details #footer-link h6 {
+	color: rgb(0, 143, 181);
+	/*margin-top: 10px;*/
+}
+
+#contactUs #footer-details #footer-link ul {
+	padding: 0;
+	margin-top: 20px;
+}
+
+#contactUs #footer-details #footer-link ul li {
+	list-style-type: none;
+}
+
+#contactUs #footer-details #footer-link ul li a {
+	color: rgb(189, 189, 189);
+	font-size: 0.8em;
+	font-weight: 300;
+	line-height: 1.6em;
+}
+
+#contactUs #footer-details #get-in-touch {
+	/*border: 1px solid white;*/
+	display: inline-block;
+	/*width: 27%;*/
+	padding: 10px;
+	margin-left: 10px;
+}
+
+#contactUs #footer-details #get-in-touch h6 {
+	color: rgb(0, 143, 181);
+	margin: 10px 0 17px 0;
+}
+
+#contactUs #footer-details #get-in-touch .text .subtext {
+	display: inline-block;
+	color: rgb(189, 189, 189);
+	font-size: 0.8em;
+	font-weight: 300;
+}
+
+#contactUs #footer-details #get-in-touch .text .subtext p {
+	margin: 2px 0 0 0;
+}
+
+.contact .contact-form form {
+	margin: 10px 0;
+}
+
+.contact .contact-form form input {
+	width: 100%; 
+	margin: 10px 0;
+	background-color: black;  
+	border: none;
+	height: 50px;
+	border-radius: 10px;
+	color: white;
+	padding: 5px 5px 5px 15px;
+}
+
+.contact .contact-form form textarea {
+	width: 100%;
+	background-color: black;
+	border: none;
+	border-radius: 10px;
+	padding: 5px 5px 5px 15px;
+	margin: 10px 0;
+}
+
+.contact .contact-form form input:focus {
+	outline: none;
+}
+
+.contact .contact-form form button {
+	background-color: black;
+	color: rgba(210, 210, 210, 0.9);
+	border: 1px solid rgba(13,85,100,1.0);
+	width: 100%;
+	height: 50px;
+	border-radius: 10px;
+	margin: 0 0 10px 0;
+}
+
+.contact .contact-form form button:active {
+	outline: none;
+}
+table.center {
+  margin-left: auto; 
+  margin-right: auto;
+}
